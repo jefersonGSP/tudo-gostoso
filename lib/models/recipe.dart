@@ -4,22 +4,23 @@ class Recipe {
   int preparationTime;
   int income;
   int numberOfFavorites;
-  int numberOfComments;
+  int numberOfCommints;
   List<String> ingredientsPaste;
   List<String> ingredientsTopping;
   List<String> preparationModePaste;
   List<String> preparationModeTopping;
 
-//construtor
-  Recipe(
-      {required this.photo,
-      required this.name,
-      required this.preparationTime,
-      required this.income,
-      required this.numberOfFavorites,
-      required this.numberOfComments,
-      required this.ingredientsPaste,
-      required this.ingredientsTopping,
-      required this.preparationModePaste,
-      required this.preparationModeTopping});
+  //Construtor
+  Recipe({
+    required this.photo,
+    required this.name,
+    required this.preparationTime,
+    required this.income,
+    required this.numberOfFavorites,
+    required this.numberOfCommints,
+    required this.ingredientsPaste,
+    required this.ingredientsTopping,
+    required this.preparationModePaste,
+    required this.preparationModeTopping,
+  });
 }
